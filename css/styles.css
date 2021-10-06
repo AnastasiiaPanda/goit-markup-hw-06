@@ -241,6 +241,8 @@ margin: 0;
   background-size: cover;
   text-align: center;
   padding: 200px 0;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -842,6 +844,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
   display: flex;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -854,6 +857,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer-link {
+  color: #188ce8;
+  margin-left: 5px;
 }
 
 .form-checkbox:checked + .check-text > .check-item {
