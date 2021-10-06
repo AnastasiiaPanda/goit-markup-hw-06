@@ -596,7 +596,13 @@ text-align: center; */
   background-color: transparent;
 }
 
+.footer-btn {
+  display: flex;
+  align-items: center;
+}
+
 .footer-send-icon {
+  margin-left: 10px;
 }
 
 /* Стили для portfolio.html  */
